@@ -9,12 +9,15 @@ const Notes = ({ color }) => {
                 <p>❌</p>
             </div>
             <div class="relative w-full h-5/6">
-                <div className="bg-amber-100/40   rounded-2xl h-3/4 text-black  p-4 ">
-                <p>Texto parent</p>
-                <div class="absolute bottom-0 left-2  ...">
-                    <p className="text-white text-end">Fecha child</p>
+               
+                <div className="bg-amber-100/40   rounded-2xl h-5/6 text-black  p-4 ">
+                    <div className="absolute left-0 bottom-42 text-4xl "> 📝</div>
+                    <p>Texto parent</p>
+                <div class="absolute bottom-0 left-32     ...">
+                    <p className="text-white text-sm">Fecha: 26/05/2025</p>
                 </div>
             </div>
+
             </div>
 
         </div>

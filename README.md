@@ -92,3 +92,4 @@ Para el desarrollo de esta aplicación, se han seguido las siguientes buenas pr�
 - `vite`: Herramienta de construcción y desarrollo rápida para aplicaciones web modernas.
 - `eslint`: Herramienta para identificar y reportar patrones en el código JavaScript.
 ## 📚 Recursos adicionales
+- [Documentación de React](https://reactjs.org/docs/getting-started.html)
