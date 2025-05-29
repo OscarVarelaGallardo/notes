@@ -3,12 +3,12 @@ import { useState } from 'react';
 import { toast } from 'sonner';
 
 
-const InputButton = ({ colorUser }) => {
+const InputButton = ({ colorUser, handleCreateNote }) => {
     const [value, onChange] = useState(new Date());
     const [text, setText] = useState('');
 
     const handleTask = () => {
-        console.log(text.length <= 0)
+       
         if(text.length <= 0){
             toast.error('Debes ingresar el texto en la nota ')
             return
@@ -16,13 +16,11 @@ const InputButton = ({ colorUser }) => {
         toast.info('Enviado tarea')
         const data = {
             task: text,
-            date: value,
+            date: value.toLocaleString(),
             color: colorUser
 
         }
-        console.log(data)
-       
-
+        handleCreateNote(data)
     }
     return (
         <div className='shadow-sm  justify-center items-center  border border-gray-200 rounded-md  m-2 p-2'>
@@ -30,7 +28,7 @@ const InputButton = ({ colorUser }) => {
             <label className='flex flex-row w-3/5 uppercase text-blue-700 font-bold ' >Escribe tu nota
 
             </label>
-            <div className='flex items-center gap-4 '>
+            <div className='flex flex-row items-center gap-4 '>
                 <textarea
                     rows={7}
                     maxLength={300}
