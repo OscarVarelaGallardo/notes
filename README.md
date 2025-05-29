@@ -124,7 +124,7 @@ Este proyecto es un ejemplo de cómo construir una aplicación de notas simple u
 
 ## Link a la demo
 Puedes ver una demostración en vivo de la aplicación en el siguiente enlace:
-[Demo de la aplicación de notas](https://oscarvarelagallardo.github.io/notes/)
+[Demo de la aplicación de notas](https://proyectonotasreact.netlify.app/)
 
 ## 📚 Recursos adicionales
 
