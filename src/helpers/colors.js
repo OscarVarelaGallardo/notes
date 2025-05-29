@@ -1,24 +1,24 @@
 const colors = [
     {
         name: 'red',
-        color:'oklch(70.4% 0.191 22.216)'
+        color: '#de3839'
     },
     {
         name: 'orange',
-        color: 'oklch(70.5% 0.213 47.604)'
+        color: '#eb7222'
     },
     {
         name: 'blue',
-        color: 'oklch(71.5% 0.143 215.221)'
+        color: '#3b6fd6'
     },
     {
         name: 'yellow',
-        color: 'oklch(90.5% 0.182 98.111)'
+        color: '#ffe056'
     },
     {
         name: 'purple',
-        color:'oklch(71.4% 0.203 305.504)'
+        color: '#a248ca'
     }
-]
+];
 
-export default  colors 
+export default colors;
