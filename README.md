@@ -126,6 +126,8 @@ Este proyecto es un ejemplo de cómo construir una aplicación de notas simple u
 Puedes ver una demostración en vivo de la aplicación en el siguiente enlace:
 [Demo de la aplicación de notas](https://proyectonotasreact.netlify.app/)
 
+Actualmente la aplicacion solo es web, pero se planea expandir a una aplicación móvil en el futuro.
+
 ## 📚 Recursos adicionales
 
 - 📘 [Documentación oficial de React](https://reactjs.org/docs/getting-started.html)
